@@ -1,0 +1,480 @@
+bplist00�_WebMainResource_WebSubresources�	
+^WebResourceURL_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingName_WebResourceFrameName_<http://172.31.238.251/JudgeOnline/problem.php?cid=1369&pid=0O%l<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>DS队列之银行排队</title>
+	<link rel="stylesheet" href="./template/classic/hoj.css" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+	
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="./include/hoj.css" type="text/css">
+
+<table width="100%" class="toprow"><tbody><tr align="center">
+	<td width="15%"><a class="hd" href="./">主页</a>
+	</td><td width="15%"><a class="hd" href="./bbs.php?cid=1369">讨论版</a>
+	</td><td width="15%"><a class="hd" href="./contest.php?cid=1369">问题</a>
+	</td><td width="15%"><a class="hd" href="./contestrank.php?cid=1369">名次</a>
+	</td><td width="15%"><a class="hd" href="./status.php?cid=1369">状态</a>
+	</td><td width="15%"><a class="hd" href="./conteststatistics.php?cid=1369">统计</a>
+</td></tr></tbody></table>
+
+<div id="broadcast">
+<marquee id="broadcast" scrollamount="1" direction="up" scrolldelay="250" onmouseover="this.stop()" onmouseout="this.start()" ;="">！！请使用学号注册用户名！！
+</marquee></div><!--end broadcast-->
+<div id="main">
+	
+	<title>问题 A: DS队列之银行排队 </title><center><h2>问题 A: DS队列之银行排队</h2><span class="green">时间限制: </span>1 Sec&nbsp;&nbsp;<span class="green">内存限制: </span>128 MB<br><span class="green">提交: </span>706&nbsp;&nbsp;<span class="green">解决: </span>630<br>[<a href="submitpage.php?cid=1369&amp;pid=0&amp;langmask=9">提交</a>][<a href="problemstatus.php?id=1109">状态</a>][<a href="bbs.php?pid=1109&amp;cid=1369">讨论版</a>]</center><h2>题目描述</h2><div class="content"><p></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; "><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">在银行营业大厅共服务</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; ">3</span><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">种客户，类型为</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; ">A\B\C</span><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">，大厅分别设置了</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; ">3</span><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">个窗口分别服务三种客户，即每个窗口只服务一种客户。现有一批客户来银行办理业务，每个客户都有类型和办理业务时间。每个窗口按照客户到来的顺序进行服务。</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; "><o:p></o:p></span></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; "><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">编程实现它们的办理流程，请使用</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; ">C++</span><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">自带的</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; ">queue</span><strong style="text-indent: 22.6666660308838px;">必须使用队列实现，其他方法0分！</strong></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">队列queue的用法如下：</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">1.包含头文件：<span style="color: rgb(128, 128, 128); font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace; font-size: 16px; line-height: 17.59375px; white-space: pre; ">#include &lt;queue&gt;</span></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">2.定义一个整数队列对象：queue&lt;int&gt; &nbsp;myQe;</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">3.定义一个整数队列对象数组：queue&lt;int&gt; &nbsp;myQA[10];&nbsp;</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">4.入队操作：myQe.push(itemp); //把整数itemp进入队列</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">5.出队操作：myQe.pop(); &nbsp;//把队头元素弹出队列，注意本操作不获取队头元素</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">6.获取队头元素： itemp = myQe.front(); // 把队头元素放入itemp中，注意本操作不弹出元素</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; ">7.判断队列是否为空：myQe.empty();//队列空则返回true，不空则返回false</p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; "></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; text-indent: 17pt; margin: 0cm 0cm 0pt; "></p>
+<p></p>
+<p></p></div><h2>输入</h2><div class="content"><p></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; margin: 0cm 0cm 0pt; "><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">第一行输入先输入</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; ">n</span><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">表示客户数量</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; "><o:p></o:p></span></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; margin: 0cm 0cm 0pt; "><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">第二行输入每个客户的类型，数据之间用用空格隔开</span><span lang="EN-US" style="line-height: 24px; font-size: 12pt; "><o:p></o:p></span></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; margin: 0cm 0cm 0pt; "><span style="line-height: 24px; font-family: 宋体; font-size: 12pt; ">第三行输入每个客户的办理时间，数据之间用用空格隔开</span></p>
+<p class="MsoNormal" style="font-family: 'Times New Roman'; font-size: 14px; line-height: 21px; margin: 0cm 0cm 0pt; "></p>
+<p></p>
+<p></p></div><h2>输出</h2><div class="content"><p></p>
+<p style="font-family: 'Times New Roman'; font-size: 14px; "><font size="3" face="宋体">第一行输出<span lang="EN-US">A</span>类客户的平均办理时间</font></p>
+<p style="font-family: 'Times New Roman'; font-size: 14px; "><font size="3" face="宋体">第二行输出<span lang="EN-US">B</span>类客户的平均办理时间</font></p>
+<p style="font-family: 'Times New Roman'; font-size: 14px; "><font size="3" face="宋体">第三行输出<span lang="EN-US">C</span>类客户的平均办理时间</font></p>
+<p style="font-family: 'Times New Roman'; font-size: 14px; "><font size="3" face="宋体"><br>
+</font></p>
+<p></p>
+<p></p></div><h2>样例输入</h2>
+			<div class="content"><span class="sampledata">8
+A B C B C A A A
+10 20 30 40 50 60 70 80
+</span></div><h2>样例输出</h2>
+			<div class="content"><span class="sampledata">55
+30
+40
+</span></div><h2>提示</h2>
+			<div class="content"><p></p></div><center>[<a href="submitpage.php?cid=1369&amp;pid=0&amp;langmask=9">提交</a>][<a href="problemstatus.php?id=1109">状态</a>][<a href="bbs.php?pid=1109&amp;cid=1369">讨论版</a>]</center><div id="foot">
+	
+<center>
+	<p>
+			<!--<a href=setlang.php?lang=ko>한국어</a>&nbsp;-->
+		<a href="setlang.php?lang=cn">中文</a>&nbsp;
+		<!--<a href=setlang.php?lang=fa>فارسی</a>&nbsp;-->
+		<a href="setlang.php?lang=en">English</a>&nbsp;
+		<!--<a href=setlang.php?lang=th>ไทย</a>	<br>-->
+		
+	
+		<!--Anything about the Problems, Please Contact Admin:<a href="mailto:root@localhost">admin</a>-->
+		
+		<script type="text/javascript" charset="utf-8">
+		/*
+		(function(){
+		  var _w = 86 , _h = 50;
+		  var param = {
+			url:location.href,
+			type:'6',
+			count:'1', //是否显示分享数，1显示(可选)
+			appkey:'', //您申请的应用appkey,显示分享来源(可选)
+			title:'', //分享的文字内容(可选，默认为所在页面的title)
+			pic:'', //分享图片的路径(可选)
+			ralateUid:'', //关联用户的UID，分享微博会@该用户(可选)
+			language:'zh_cn', //设置语言，zh_cn|zh_tw(可选)
+			rnd:new Date().valueOf()
+		  }
+		  var temp = [];
+		  for( var p in param ){
+			temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+		  }
+		  document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+		})()
+		*/
+	</script>
+		<br>
+		All Copyright Reserved 2010-2011 <a href="./">深圳大学在线判题教学平台</a> TEAM<br>
+		
+     	
+	</p>
+</center>
+
+</div><!--end foot-->
+</div><!--end main-->
+</div><!--end wrapper-->
+
+
+<!--not cached-->
+</body></html>Ytext/htmlUUTF-8P��_WebResourceResponse_:http://172.31.238.251/JudgeOnline/template/classic/hoj.cssO$bplist00�efX$versionX$objectsY$archiverT$top ���#)*0123KLMNOPQRSTUVWXYZ[\]`U$null�	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1�	��� �����$%'(WNS.base[NS.relative� ��_:http://172.31.238.251/JudgeOnline/template/classic/hoj.css�+,-.Z$classnameX$classesUNSURL�-/XNSObject#A���?	�, ��456@JWNS.keysZNS.objects�789:;<=>?�	�
+��������ABDEFGHI����������ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-Alive_Apache/2.2.14 (Ubuntu)Xtext/css_Wed, 12 Sep 2012 12:32:18 GMTUbytes_Sat, 19 Nov 2016 14:34:10 GMTT2927_timeout=15, max=99_"100e6a-b6f-4c98061a45880"�+,^_\NSDictionary�^/�+,ab_NSHTTPURLResponse�cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiver�gh_WebResourceResponse�    # - 2 7 W ] x {  � � � � � � � � � � � � � � � � � � � � � � � � � � � � � �!,5;>GPRT[cnxz|~������������������������+4TZz���������0             i              2Ooa {
+    color: #1A5CC8;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+h2 {
+    color: blue;
+}
+#wrapper {
+    /* width: 95%; */
+    margin: auto;
+    width: 960px;
+    position: relative;
+    left: 2.5%;
+}
+
+.toprow {
+    background-color: #1A5CC8;
+    color: #FFFFFF;
+    font-weight: bold;
+    white-space: nowrap;
+    background: url("image/menu_bg.png");
+}
+.toprow a {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+.toprow a:hover {
+    color: orange;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+.oddrow {
+    background-color: #E5ECF9;
+    white-space: nowrap;
+}
+.evenrow {
+    background-color: #FFFFFF;
+    white-space: nowrap;
+}
+body {
+    background-color: #FFFFFF;
+    background-image: url("image/background.jpg");
+}
+.hd {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.time {
+    text-align: right;
+}
+.ip {
+    padding-right: 5px;
+    text-align: right;
+}
+tr.userinfo {
+    background-color: #FFFFF0;
+    font-size: 16px;
+}
+span.yes {
+    color: green;
+    font-weight: bolder;
+}
+span.no {
+    color: red;
+    font-weight: bolder;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.gray {
+    color: gray;
+}
+.orange {
+    color: orange;
+}
+.navy {
+    color: navy;
+}
+span.exadmin {
+    color: gray;
+}
+.center,#center {
+	width=100%;
+    text-align: center;
+}
+div.content {
+    background: none repeat scroll 0 0 #E4F0F8;
+    font-family: Times New Roman;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    padding: 0 20px;
+    text-align: left;
+}
+.sampledata {
+    background: none repeat scroll 0 0 #8DB8FF;
+    font-family: Monospace;
+    font-size: 18px;
+    white-space: pre;
+}
+#head {
+    height: 53px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 1;
+}
+#menu {
+    background: url("image/menu_bg.png") repeat scroll 0 0 transparent;
+    font-weight: bold;
+    height: 35px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 2;
+}
+.menu_item {
+    display: inline;
+    position: relative;
+    top: 5px;
+    vertical-align: bottom;
+}
+.menu_item a {
+    color: #FFFFFF;
+    font-size: 20px;
+    top: 2px;
+}
+#profile {
+    font-weight: bold;
+    height: 32px;
+    left: 0;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    visibility: visible;
+    width: 100%;
+    z-index: 3;
+}
+#broadcast {
+    color: red;
+    height: 50px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 4;
+}
+#main {
+    height: auto;
+    position: static;
+    width: 100%;
+    z-index: 6;
+}
+#foot {
+    height: 133px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 7;
+}
+#logo {
+    position: static;
+    vertical-align: middle;
+}
+Xtext/css�_1http://172.31.238.251/JudgeOnline/include/hoj.cssObplist00�efX$versionX$objectsY$archiverT$top ���#)*0123KLMNOPQRSTUVWXYZ[\]`U$null�	
+ !"R$6S$10R$2R$7R$3S$11R$8V$classR$4R$9R$0R$5R$1�	��� �����$%'(WNS.base[NS.relative� ��_1http://172.31.238.251/JudgeOnline/include/hoj.css�+,-.Z$classnameX$classesUNSURL�-/XNSObject#A���?	� ��456@JWNS.keysZNS.objects�789:;<=>?�	�
+��������ABDEFGHI����������ZConnectionVServer\Content-Type]Last-Modified]Accept-RangesTDate^Content-LengthZKeep-AliveTEtagZKeep-Alive_Apache/2.2.14 (Ubuntu)Xtext/css_Wed, 12 Sep 2012 12:33:10 GMTUbytes_Sat, 19 Nov 2016 14:36:11 GMTT2915_timeout=15, max=97_"100df9-b63-4c98064bdcd80"�+,^_\NSDictionary�^/�+,ab_NSHTTPURLResponse�cd/_NSHTTPURLResponse]NSURLResponse_NSKeyedArchiver�gh_WebResourceResponse�    # - 2 7 W ] x {  � � � � � � � � � � � � � � � � � � � � � � � � � � � � � �#,25>GIKRZeoqsuwy{}���������������������	"+KQqv����������'             i              )Oca {
+    color: #1A5CC8;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+h2 {
+    color: blue;
+}
+#wrapper {
+    /* width: 95%; */
+    margin: auto;
+    width: 960px;
+    position: relative;
+    left: 2.5%;
+}
+
+.toprow {
+    background-color: #1A5CC8;
+    color: #FFFFFF;
+    font-weight: bold;
+    white-space: nowrap;
+    background: url("../image/menu_bg.png");
+}
+.toprow a {
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+.toprow a:hover {
+    color: orange;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+.oddrow {
+    background-color: #E5ECF9;
+    white-space: nowrap;
+}
+.evenrow {
+    background-color: #FFFFFF;
+    white-space: nowrap;
+}
+body {
+    background-color: #FFFFFF;
+    background-image: url("../image/background.jpg");
+}
+.hd {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.time {
+    text-align: right;
+}
+.ip {
+    padding-right: 5px;
+    text-align: right;
+}
+tr.userinfo {
+    background-color: #FFFFF0;
+    font-size: 16px;
+}
+span.yes {
+    color: green;
+    font-weight: bolder;
+}
+span.no {
+    color: red;
+    font-weight: bolder;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.gray {
+    color: gray;
+}
+.orange {
+    color: orange;
+}
+.navy {
+    color: navy;
+}
+span.exadmin {
+    color: gray;
+}
+#center {
+    text-align: center;
+}
+div.content {
+    background: none repeat scroll 0 0 #E4F0F8;
+    font-family: Times New Roman;
+    font-size: 14px;
+    height: auto;
+    margin: 0;
+    padding: 0 20px;
+    text-align: left;
+}
+.sampledata {
+    background: none repeat scroll 0 0 #8DB8FF;
+    font-family: Monospace;
+    font-size: 18px;
+    white-space: pre;
+}
+#head {
+    height: 53px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 1;
+}
+#menu {
+    background: url("../image/menu_bg.png") repeat scroll 0 0 transparent;
+    font-weight: bold;
+    height: 35px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 2;
+}
+.menu_item {
+    display: inline;
+    position: relative;
+    top: 5px;
+    vertical-align: bottom;
+}
+.menu_item a {
+    color: #FFFFFF;
+    font-size: 20px;
+    top: 2px;
+}
+#profile {
+    font-weight: bold;
+    height: 32px;
+    left: 0;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    visibility: visible;
+    width: 100%;
+    z-index: 3;
+}
+#broadcast {
+    color: red;
+    height: 50px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 4;
+}
+#main {
+    height: auto;
+    position: static;
+    width: 100%;
+    z-index: 6;
+}
+#foot {
+    height: 133px;
+    position: static;
+    text-align: center;
+    visibility: visible;
+    width: 100%;
+    z-index: 7;
+}
+#logo {
+    position: static;
+    vertical-align: middle;
+}
+    1 < K ] s � � �&W&a&g&h&k&t&�&�*�6b6k6t6�:�                           F.

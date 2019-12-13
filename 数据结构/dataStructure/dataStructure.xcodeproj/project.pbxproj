@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2511E8751EE96D0C006C9BB9 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2511E8741EE96D0C006C9BB9 /* test.cpp */; };
+		25301BCA1DE0A39F008B7E68 /* 大整数相乘.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25301BC91DE0A39F008B7E68 /* 大整数相乘.cpp */; };
+		253686E41E517228001F21AF /* 单链表-多项式相加.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 253686E31E517228001F21AF /* 单链表-多项式相加.cpp */; };
+		253E16251E9F9EAF0038E2A8 /* 二叉树-层次遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 253E16241E9F9EAF0038E2A8 /* 二叉树-层次遍历.cpp */; };
+		2558F90A1EA8D97200BE36FB /* 图的深度优先遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2558F9091EA8D97200BE36FB /* 图的深度优先遍历.cpp */; };
+		255AB4651EB8BB4D0039F8C9 /* 二叉排序树-创建、插入.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255AB4641EB8BB4D0039F8C9 /* 二叉排序树-创建、插入.cpp */; };
+		255D813E1E60481500088ED0 /* 堆栈-括号匹配.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255D813D1E60481500088ED0 /* 堆栈-括号匹配.cpp */; };
+		255D81401E60508A00088ED0 /* 堆栈-逆序输出.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255D813F1E60508A00088ED0 /* 堆栈-逆序输出.cpp */; };
+		255D81421E60528500088ED0 /* 堆栈-行编辑.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255D81411E60528500088ED0 /* 堆栈-行编辑.cpp */; };
+		255D81441E60573200088ED0 /* 堆栈-表达式计算.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255D81431E60573200088ED0 /* 堆栈-表达式计算.cpp */; };
+		255D81471E6057C900088ED0 /* 队列-银行排队.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255D81461E6057C900088ED0 /* 队列-银行排队.cpp */; };
+		255DDB2B1E62E23D000BB645 /* 队列-组队列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 255DDB2A1E62E23D000BB645 /* 队列-组队列.cpp */; };
+		2579AB161E5082FE00FC22E2 /* 单链表-链表元素去重.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2579AB151E5082FE00FC22E2 /* 单链表-链表元素去重.cpp */; };
+		258233DD1EA4E8770093F763 /* 图的储存结构转换.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258233DC1EA4E8770093F763 /* 图的储存结构转换.cpp */; };
+		258233DF1EA4EF350093F763 /* 图的储存结构转换+入度计算.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258233DE1EA4EF350093F763 /* 图的储存结构转换+入度计算.cpp */; };
+		258FE70D1E9D2909007526EC /* 二叉树-数组存储.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258FE70C1E9D2909007526EC /* 二叉树-数组存储.cpp */; };
+		258FE70F1E9D2FD2007526EC /* 二叉树-二叉树的创建和遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258FE70E1E9D2FD2007526EC /* 二叉树-二叉树的创建和遍历.cpp */; };
+		258FE7111E9D3AD8007526EC /* 二叉树-叶子数量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 258FE7101E9D3AD8007526EC /* 二叉树-叶子数量.cpp */; };
+		259389101E55B2520061AA9E /* 单链表-多项式相乘.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2593890F1E55B2520061AA9E /* 单链表-多项式相乘.cpp */; };
+		25A6CA221ECA177C00AF81B2 /* 拓扑排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A6CA211ECA177C00AF81B2 /* 拓扑排序.cpp */; };
+		25AD17FB1F504B6600A95597 /* asasd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25AD17FA1F504B6600A95597 /* asasd.cpp */; };
+		25B9195B1DE1E53C0031A775 /* 霍夫曼树编码.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25B9195A1DE1E53C0031A775 /* 霍夫曼树编码.cpp */; };
+		25B9195D1DE1E6DB0031A775 /* 霍夫曼树解码.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25B9195C1DE1E6DB0031A775 /* 霍夫曼树解码.cpp */; };
+		25BD90951E8C006D00BBDBB9 /* 队列-数制转换.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25BD90941E8C006D00BBDBB9 /* 队列-数制转换.cpp */; };
+		25CA3A731E97D391003A4263 /* 队列-KMP算法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25CA3A721E97D391003A4263 /* 队列-KMP算法.cpp */; };
+		25D51B2C1EA36C1C00F16AF9 /* 二叉树-父子结点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B2B1EA36C1C00F16AF9 /* 二叉树-父子结点.cpp */; };
+		25D51B2E1EA36DC500F16AF9 /* 二叉树-后序遍历非递归.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B2D1EA36DC500F16AF9 /* 二叉树-后序遍历非递归.cpp */; };
+		25D51B301EA37CA800F16AF9 /* 二叉树-遍历求深度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B2F1EA37CA800F16AF9 /* 二叉树-遍历求深度.cpp */; };
+		25D51B321EA386A900F16AF9 /* 二叉树-遍历求最大结点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B311EA3830900F16AF9 /* 二叉树-遍历求最大结点.cpp */; };
+		25D51B341EA3902E00F16AF9 /* 霍夫曼树-带权路径和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B331EA3902E00F16AF9 /* 霍夫曼树-带权路径和.cpp */; };
+		25D51B361EA396DC00F16AF9 /* 霍夫曼树-最大路径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B351EA396DC00F16AF9 /* 霍夫曼树-最大路径.cpp */; };
+		25D51B391EA3ADE400F16AF9 /* 构建邻接表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D51B381EA3ADE400F16AF9 /* 构建邻接表.cpp */; };
+		25D87DE41E9E604F00570808 /* 二叉树-左叶子数量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25D87DE31E9E604F00570808 /* 二叉树-左叶子数量.cpp */; };
+		25E87BB71EB494C600244BF5 /* 图的广度优先遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E87BB61EB494C600244BF5 /* 图的广度优先遍历.cpp */; };
+		25E87BB91EB74DBC00244BF5 /* 最小生成树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E87BB81EB74DBC00244BF5 /* 最小生成树.cpp */; };
+		25E87BBB1EB74DE900244BF5 /* 图的最短路径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E87BBA1EB74DE900244BF5 /* 图的最短路径.cpp */; };
+		25E87BBD1EB76CD300244BF5 /* 查找-折半查找.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E87BBC1EB76CD300244BF5 /* 查找-折半查找.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25301BB61DE0A2EB008B7E68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2511E8741EE96D0C006C9BB9 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		25301BB81DE0A2EB008B7E68 /* dataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		25301BC31DE0A342008B7E68 /* 单链表-合并.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表-合并.cpp"; sourceTree = "<group>"; };
+		25301BC41DE0A342008B7E68 /* 单链表-类实现.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表-类实现.cpp"; sourceTree = "<group>"; };
+		25301BC51DE0A342008B7E68 /* 单链表-结点交换.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表-结点交换.cpp"; sourceTree = "<group>"; };
+		25301BC61DE0A342008B7E68 /* 顺序表-合并操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序表-合并操作.cpp"; sourceTree = "<group>"; };
+		25301BC71DE0A342008B7E68 /* 顺序表-连续操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序表-连续操作.cpp"; sourceTree = "<group>"; };
+		25301BC81DE0A342008B7E68 /* 顺序表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序表.cpp"; sourceTree = "<group>"; };
+		25301BC91DE0A39F008B7E68 /* 大整数相乘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "大整数相乘.cpp"; sourceTree = "<group>"; };
+		253686E31E517228001F21AF /* 单链表-多项式相加.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表-多项式相加.cpp"; sourceTree = "<group>"; };
+		253E16241E9F9EAF0038E2A8 /* 二叉树-层次遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-层次遍历.cpp"; sourceTree = "<group>"; };
+		2558F9091EA8D97200BE36FB /* 图的深度优先遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图的深度优先遍历.cpp"; sourceTree = "<group>"; };
+		255AB4641EB8BB4D0039F8C9 /* 二叉排序树-创建、插入.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉排序树-创建、插入.cpp"; sourceTree = "<group>"; };
+		255D813D1E60481500088ED0 /* 堆栈-括号匹配.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "堆栈-括号匹配.cpp"; sourceTree = "<group>"; };
+		255D813F1E60508A00088ED0 /* 堆栈-逆序输出.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "堆栈-逆序输出.cpp"; sourceTree = "<group>"; };
+		255D81411E60528500088ED0 /* 堆栈-行编辑.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "堆栈-行编辑.cpp"; sourceTree = "<group>"; };
+		255D81431E60573200088ED0 /* 堆栈-表达式计算.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "堆栈-表达式计算.cpp"; sourceTree = "<group>"; };
+		255D81461E6057C900088ED0 /* 队列-银行排队.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "队列-银行排队.cpp"; sourceTree = "<group>"; };
+		255DDB2A1E62E23D000BB645 /* 队列-组队列.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "队列-组队列.cpp"; sourceTree = "<group>"; };
+		2579AB151E5082FE00FC22E2 /* 单链表-链表元素去重.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表-链表元素去重.cpp"; sourceTree = "<group>"; };
+		258233DC1EA4E8770093F763 /* 图的储存结构转换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图的储存结构转换.cpp"; sourceTree = "<group>"; };
+		258233DE1EA4EF350093F763 /* 图的储存结构转换+入度计算.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图的储存结构转换+入度计算.cpp"; sourceTree = "<group>"; };
+		258FE70C1E9D2909007526EC /* 二叉树-数组存储.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-数组存储.cpp"; sourceTree = "<group>"; };
+		258FE70E1E9D2FD2007526EC /* 二叉树-二叉树的创建和遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-二叉树的创建和遍历.cpp"; sourceTree = "<group>"; };
+		258FE7101E9D3AD8007526EC /* 二叉树-叶子数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-叶子数量.cpp"; sourceTree = "<group>"; };
+		2593890F1E55B2520061AA9E /* 单链表-多项式相乘.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表-多项式相乘.cpp"; sourceTree = "<group>"; };
+		25A6CA211ECA177C00AF81B2 /* 拓扑排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "拓扑排序.cpp"; sourceTree = "<group>"; };
+		25AD17FA1F504B6600A95597 /* asasd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asasd.cpp; sourceTree = "<group>"; };
+		25B9195A1DE1E53C0031A775 /* 霍夫曼树编码.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "霍夫曼树编码.cpp"; sourceTree = "<group>"; };
+		25B9195C1DE1E6DB0031A775 /* 霍夫曼树解码.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "霍夫曼树解码.cpp"; sourceTree = "<group>"; };
+		25BD90941E8C006D00BBDBB9 /* 队列-数制转换.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "队列-数制转换.cpp"; sourceTree = "<group>"; };
+		25CA3A721E97D391003A4263 /* 队列-KMP算法.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "队列-KMP算法.cpp"; sourceTree = "<group>"; };
+		25D51B2B1EA36C1C00F16AF9 /* 二叉树-父子结点.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-父子结点.cpp"; sourceTree = "<group>"; };
+		25D51B2D1EA36DC500F16AF9 /* 二叉树-后序遍历非递归.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-后序遍历非递归.cpp"; sourceTree = "<group>"; };
+		25D51B2F1EA37CA800F16AF9 /* 二叉树-遍历求深度.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-遍历求深度.cpp"; sourceTree = "<group>"; };
+		25D51B311EA3830900F16AF9 /* 二叉树-遍历求最大结点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-遍历求最大结点.cpp"; sourceTree = "<group>"; };
+		25D51B331EA3902E00F16AF9 /* 霍夫曼树-带权路径和.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "霍夫曼树-带权路径和.cpp"; sourceTree = "<group>"; };
+		25D51B351EA396DC00F16AF9 /* 霍夫曼树-最大路径.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "霍夫曼树-最大路径.cpp"; sourceTree = "<group>"; };
+		25D51B381EA3ADE400F16AF9 /* 构建邻接表.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "构建邻接表.cpp"; sourceTree = "<group>"; };
+		25D87DE31E9E604F00570808 /* 二叉树-左叶子数量.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "二叉树-左叶子数量.cpp"; sourceTree = "<group>"; };
+		25E87BB61EB494C600244BF5 /* 图的广度优先遍历.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图的广度优先遍历.cpp"; sourceTree = "<group>"; };
+		25E87BB81EB74DBC00244BF5 /* 最小生成树.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "最小生成树.cpp"; sourceTree = "<group>"; };
+		25E87BBA1EB74DE900244BF5 /* 图的最短路径.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "图的最短路径.cpp"; sourceTree = "<group>"; };
+		25E87BBC1EB76CD300244BF5 /* 查找-折半查找.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "查找-折半查找.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25301BB51DE0A2EB008B7E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25301BAF1DE0A2EB008B7E68 = {
+			isa = PBXGroup;
+			children = (
+				25D51B371EA3ADCE00F16AF9 /* 图 */,
+				258FE70B1E9D28E1007526EC /* 二叉树 */,
+				255D81451E6057AB00088ED0 /* 队列 */,
+				255D813C1E6047F700088ED0 /* 堆栈 */,
+				25301BC21DE0A342008B7E68 /* 链表顺序表 */,
+				25B919591DE1E5230031A775 /* 霍夫曼树 */,
+				25301BB91DE0A2EB008B7E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25301BB91DE0A2EB008B7E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25301BB81DE0A2EB008B7E68 /* dataStructure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25301BC21DE0A342008B7E68 /* 链表顺序表 */ = {
+			isa = PBXGroup;
+			children = (
+				25301BC31DE0A342008B7E68 /* 单链表-合并.cpp */,
+				25301BC41DE0A342008B7E68 /* 单链表-类实现.cpp */,
+				25301BC51DE0A342008B7E68 /* 单链表-结点交换.cpp */,
+				25301BC61DE0A342008B7E68 /* 顺序表-合并操作.cpp */,
+				25301BC71DE0A342008B7E68 /* 顺序表-连续操作.cpp */,
+				25301BC81DE0A342008B7E68 /* 顺序表.cpp */,
+				25301BC91DE0A39F008B7E68 /* 大整数相乘.cpp */,
+				2579AB151E5082FE00FC22E2 /* 单链表-链表元素去重.cpp */,
+				253686E31E517228001F21AF /* 单链表-多项式相加.cpp */,
+				2593890F1E55B2520061AA9E /* 单链表-多项式相乘.cpp */,
+			);
+			name = "链表顺序表";
+			path = "dataStructure/链表顺序表";
+			sourceTree = "<group>";
+		};
+		255D813C1E6047F700088ED0 /* 堆栈 */ = {
+			isa = PBXGroup;
+			children = (
+				255D813D1E60481500088ED0 /* 堆栈-括号匹配.cpp */,
+				255D813F1E60508A00088ED0 /* 堆栈-逆序输出.cpp */,
+				255D81411E60528500088ED0 /* 堆栈-行编辑.cpp */,
+				255D81431E60573200088ED0 /* 堆栈-表达式计算.cpp */,
+			);
+			name = "堆栈";
+			path = "dataStructure/堆栈";
+			sourceTree = "<group>";
+		};
+		255D81451E6057AB00088ED0 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				255D81461E6057C900088ED0 /* 队列-银行排队.cpp */,
+				255DDB2A1E62E23D000BB645 /* 队列-组队列.cpp */,
+				25BD90941E8C006D00BBDBB9 /* 队列-数制转换.cpp */,
+				25CA3A721E97D391003A4263 /* 队列-KMP算法.cpp */,
+			);
+			name = "队列";
+			path = "dataStructure/队列";
+			sourceTree = "<group>";
+		};
+		258FE70B1E9D28E1007526EC /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				258FE70C1E9D2909007526EC /* 二叉树-数组存储.cpp */,
+				258FE70E1E9D2FD2007526EC /* 二叉树-二叉树的创建和遍历.cpp */,
+				258FE7101E9D3AD8007526EC /* 二叉树-叶子数量.cpp */,
+				25D87DE31E9E604F00570808 /* 二叉树-左叶子数量.cpp */,
+				253E16241E9F9EAF0038E2A8 /* 二叉树-层次遍历.cpp */,
+				25D51B2B1EA36C1C00F16AF9 /* 二叉树-父子结点.cpp */,
+				25D51B2D1EA36DC500F16AF9 /* 二叉树-后序遍历非递归.cpp */,
+				25D51B2F1EA37CA800F16AF9 /* 二叉树-遍历求深度.cpp */,
+				25D51B311EA3830900F16AF9 /* 二叉树-遍历求最大结点.cpp */,
+			);
+			name = "二叉树";
+			path = "dataStructure/二叉树";
+			sourceTree = "<group>";
+		};
+		25B919591DE1E5230031A775 /* 霍夫曼树 */ = {
+			isa = PBXGroup;
+			children = (
+				25B9195A1DE1E53C0031A775 /* 霍夫曼树编码.cpp */,
+				25B9195C1DE1E6DB0031A775 /* 霍夫曼树解码.cpp */,
+				25D51B331EA3902E00F16AF9 /* 霍夫曼树-带权路径和.cpp */,
+				25D51B351EA396DC00F16AF9 /* 霍夫曼树-最大路径.cpp */,
+			);
+			name = "霍夫曼树";
+			path = "dataStructure/霍夫曼树";
+			sourceTree = "<group>";
+		};
+		25D51B371EA3ADCE00F16AF9 /* 图 */ = {
+			isa = PBXGroup;
+			children = (
+				25D51B381EA3ADE400F16AF9 /* 构建邻接表.cpp */,
+				258233DC1EA4E8770093F763 /* 图的储存结构转换.cpp */,
+				258233DE1EA4EF350093F763 /* 图的储存结构转换+入度计算.cpp */,
+				2558F9091EA8D97200BE36FB /* 图的深度优先遍历.cpp */,
+				25E87BB61EB494C600244BF5 /* 图的广度优先遍历.cpp */,
+				25E87BB81EB74DBC00244BF5 /* 最小生成树.cpp */,
+				25E87BBA1EB74DE900244BF5 /* 图的最短路径.cpp */,
+				25E87BBC1EB76CD300244BF5 /* 查找-折半查找.cpp */,
+				255AB4641EB8BB4D0039F8C9 /* 二叉排序树-创建、插入.cpp */,
+				25A6CA211ECA177C00AF81B2 /* 拓扑排序.cpp */,
+				2511E8741EE96D0C006C9BB9 /* test.cpp */,
+				25AD17FA1F504B6600A95597 /* asasd.cpp */,
+			);
+			name = "图";
+			path = "dataStructure/图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25301BB71DE0A2EB008B7E68 /* dataStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25301BBF1DE0A2EB008B7E68 /* Build configuration list for PBXNativeTarget "dataStructure" */;
+			buildPhases = (
+				25301BB41DE0A2EB008B7E68 /* Sources */,
+				25301BB51DE0A2EB008B7E68 /* Frameworks */,
+				25301BB61DE0A2EB008B7E68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dataStructure;
+			productName = dataStructure;
+			productReference = 25301BB81DE0A2EB008B7E68 /* dataStructure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25301BB01DE0A2EB008B7E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ran;
+				TargetAttributes = {
+					25301BB71DE0A2EB008B7E68 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 25301BB31DE0A2EB008B7E68 /* Build configuration list for PBXProject "dataStructure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25301BAF1DE0A2EB008B7E68;
+			productRefGroup = 25301BB91DE0A2EB008B7E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25301BB71DE0A2EB008B7E68 /* dataStructure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25301BB41DE0A2EB008B7E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258FE70D1E9D2909007526EC /* 二叉树-数组存储.cpp in Sources */,
+				25D51B341EA3902E00F16AF9 /* 霍夫曼树-带权路径和.cpp in Sources */,
+				255DDB2B1E62E23D000BB645 /* 队列-组队列.cpp in Sources */,
+				25E87BB71EB494C600244BF5 /* 图的广度优先遍历.cpp in Sources */,
+				25A6CA221ECA177C00AF81B2 /* 拓扑排序.cpp in Sources */,
+				2579AB161E5082FE00FC22E2 /* 单链表-链表元素去重.cpp in Sources */,
+				25D51B321EA386A900F16AF9 /* 二叉树-遍历求最大结点.cpp in Sources */,
+				258FE70F1E9D2FD2007526EC /* 二叉树-二叉树的创建和遍历.cpp in Sources */,
+				255D81471E6057C900088ED0 /* 队列-银行排队.cpp in Sources */,
+				255D81401E60508A00088ED0 /* 堆栈-逆序输出.cpp in Sources */,
+				25CA3A731E97D391003A4263 /* 队列-KMP算法.cpp in Sources */,
+				255D813E1E60481500088ED0 /* 堆栈-括号匹配.cpp in Sources */,
+				25D51B361EA396DC00F16AF9 /* 霍夫曼树-最大路径.cpp in Sources */,
+				258233DF1EA4EF350093F763 /* 图的储存结构转换+入度计算.cpp in Sources */,
+				255AB4651EB8BB4D0039F8C9 /* 二叉排序树-创建、插入.cpp in Sources */,
+				25301BCA1DE0A39F008B7E68 /* 大整数相乘.cpp in Sources */,
+				255D81421E60528500088ED0 /* 堆栈-行编辑.cpp in Sources */,
+				25D87DE41E9E604F00570808 /* 二叉树-左叶子数量.cpp in Sources */,
+				253E16251E9F9EAF0038E2A8 /* 二叉树-层次遍历.cpp in Sources */,
+				25AD17FB1F504B6600A95597 /* asasd.cpp in Sources */,
+				255D81441E60573200088ED0 /* 堆栈-表达式计算.cpp in Sources */,
+				253686E41E517228001F21AF /* 单链表-多项式相加.cpp in Sources */,
+				2558F90A1EA8D97200BE36FB /* 图的深度优先遍历.cpp in Sources */,
+				25D51B2E1EA36DC500F16AF9 /* 二叉树-后序遍历非递归.cpp in Sources */,
+				25D51B2C1EA36C1C00F16AF9 /* 二叉树-父子结点.cpp in Sources */,
+				25E87BBD1EB76CD300244BF5 /* 查找-折半查找.cpp in Sources */,
+				25E87BB91EB74DBC00244BF5 /* 最小生成树.cpp in Sources */,
+				25B9195D1DE1E6DB0031A775 /* 霍夫曼树解码.cpp in Sources */,
+				25D51B391EA3ADE400F16AF9 /* 构建邻接表.cpp in Sources */,
+				258233DD1EA4E8770093F763 /* 图的储存结构转换.cpp in Sources */,
+				2511E8751EE96D0C006C9BB9 /* test.cpp in Sources */,
+				25D51B301EA37CA800F16AF9 /* 二叉树-遍历求深度.cpp in Sources */,
+				259389101E55B2520061AA9E /* 单链表-多项式相乘.cpp in Sources */,
+				25BD90951E8C006D00BBDBB9 /* 队列-数制转换.cpp in Sources */,
+				25E87BBB1EB74DE900244BF5 /* 图的最短路径.cpp in Sources */,
+				258FE7111E9D3AD8007526EC /* 二叉树-叶子数量.cpp in Sources */,
+				25B9195B1DE1E53C0031A775 /* 霍夫曼树编码.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25301BBD1DE0A2EB008B7E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25301BBE1DE0A2EB008B7E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25301BC01DE0A2EB008B7E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25301BC11DE0A2EB008B7E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25301BB31DE0A2EB008B7E68 /* Build configuration list for PBXProject "dataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25301BBD1DE0A2EB008B7E68 /* Debug */,
+				25301BBE1DE0A2EB008B7E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25301BBF1DE0A2EB008B7E68 /* Build configuration list for PBXNativeTarget "dataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25301BC01DE0A2EB008B7E68 /* Debug */,
+				25301BC11DE0A2EB008B7E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25301BB01DE0A2EB008B7E68 /* Project object */;
+}
