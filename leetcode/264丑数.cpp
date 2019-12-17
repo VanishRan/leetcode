@@ -47,12 +47,12 @@ public:
     }
 };
 
-int main(int argc, const char * argv[]) {
-    Solution s;
-    cout<<s.nthUglyNumber(11)<<endl;
-    
-    return 0;
-}
+//int main(int argc, const char * argv[]) {
+//    Solution s;
+//    cout<<s.nthUglyNumber(11)<<endl;
+//    
+//    return 0;
+//}
 
 
 //思路：从1开始

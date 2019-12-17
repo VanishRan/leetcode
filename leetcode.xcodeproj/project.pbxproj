@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2544746D23A3D574004D6722 /* 264丑数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2544746C23A3D574004D6722 /* 264丑数.cpp */; };
+		25826AA623A612A90028982F /* 8字符串转换整数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25826AA523A612A90028982F /* 8字符串转换整数.cpp */; };
+		25826AA823A61DBD0028982F /* 13罗马数字转整数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25826AA723A61DBD0028982F /* 13罗马数字转整数.cpp */; };
+		25826AAA23A622EE0028982F /* 29两数相除.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25826AA923A622ED0028982F /* 29两数相除.cpp */; };
+		25826AAC23A67A850028982F /* 50pow(x,n).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25826AAB23A67A850028982F /* 50pow(x,n).cpp */; };
+		25826AAE23A67F4A0028982F /* 171Excel表列序号.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25826AAD23A67F4A0028982F /* 171Excel表列序号.cpp */; };
+		25826AB023A680C90028982F /* 202快乐数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25826AAF23A680C90028982F /* 202快乐数.cpp */; };
+		25A2D89423A9220A00C0E760 /* 326-3的幂.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A2D89123A9220900C0E760 /* 326-3的幂.cpp */; };
+		25A2D89523A9220A00C0E760 /* 304二维区域和检索-矩阵不可变.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A2D89223A9220900C0E760 /* 304二维区域和检索-矩阵不可变.cpp */; };
+		25A2D89623A9220A00C0E760 /* 268缺失数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A2D89323A9220900C0E760 /* 268缺失数字.cpp */; };
+		25F3EA3923A7B8D4005F6A5E /* 213打家劫舍2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25F3EA3823A7B8D4005F6A5E /* 213打家劫舍2.cpp */; };
+		25F3EA3B23A7C760005F6A5E /* 198打家劫舍1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25F3EA3A23A7C760005F6A5E /* 198打家劫舍1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,17 @@
 /* Begin PBXFileReference section */
 		2517ABA9239004BA00048D25 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		2544746C23A3D574004D6722 /* 264丑数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "264丑数.cpp"; sourceTree = "<group>"; };
+		25826AA523A612A90028982F /* 8字符串转换整数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8字符串转换整数.cpp"; sourceTree = "<group>"; };
+		25826AA723A61DBD0028982F /* 13罗马数字转整数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "13罗马数字转整数.cpp"; sourceTree = "<group>"; };
+		25826AA923A622ED0028982F /* 29两数相除.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "29两数相除.cpp"; sourceTree = "<group>"; };
+		25826AAB23A67A850028982F /* 50pow(x,n).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "50pow(x,n).cpp"; sourceTree = "<group>"; };
+		25826AAD23A67F4A0028982F /* 171Excel表列序号.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "171Excel表列序号.cpp"; sourceTree = "<group>"; };
+		25826AAF23A680C90028982F /* 202快乐数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "202快乐数.cpp"; sourceTree = "<group>"; };
+		25A2D89123A9220900C0E760 /* 326-3的幂.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "326-3的幂.cpp"; sourceTree = "<group>"; };
+		25A2D89223A9220900C0E760 /* 304二维区域和检索-矩阵不可变.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "304二维区域和检索-矩阵不可变.cpp"; sourceTree = "<group>"; };
+		25A2D89323A9220900C0E760 /* 268缺失数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "268缺失数字.cpp"; sourceTree = "<group>"; };
+		25F3EA3823A7B8D4005F6A5E /* 213打家劫舍2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "213打家劫舍2.cpp"; sourceTree = "<group>"; };
+		25F3EA3A23A7C760005F6A5E /* 198打家劫舍1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "198打家劫舍1.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,17 @@
 			isa = PBXGroup;
 			children = (
 				2544746C23A3D574004D6722 /* 264丑数.cpp */,
+				25826AA523A612A90028982F /* 8字符串转换整数.cpp */,
+				25826AA723A61DBD0028982F /* 13罗马数字转整数.cpp */,
+				25826AA923A622ED0028982F /* 29两数相除.cpp */,
+				25826AAB23A67A850028982F /* 50pow(x,n).cpp */,
+				25826AAD23A67F4A0028982F /* 171Excel表列序号.cpp */,
+				25826AAF23A680C90028982F /* 202快乐数.cpp */,
+				25F3EA3A23A7C760005F6A5E /* 198打家劫舍1.cpp */,
+				25F3EA3823A7B8D4005F6A5E /* 213打家劫舍2.cpp */,
+				25A2D89323A9220900C0E760 /* 268缺失数字.cpp */,
+				25A2D89223A9220900C0E760 /* 304二维区域和检索-矩阵不可变.cpp */,
+				25A2D89123A9220900C0E760 /* 326-3的幂.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -119,7 +152,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25826AB023A680C90028982F /* 202快乐数.cpp in Sources */,
+				25826AAE23A67F4A0028982F /* 171Excel表列序号.cpp in Sources */,
+				25A2D89623A9220A00C0E760 /* 268缺失数字.cpp in Sources */,
+				25A2D89523A9220A00C0E760 /* 304二维区域和检索-矩阵不可变.cpp in Sources */,
+				25826AA823A61DBD0028982F /* 13罗马数字转整数.cpp in Sources */,
+				25826AA623A612A90028982F /* 8字符串转换整数.cpp in Sources */,
+				25826AAA23A622EE0028982F /* 29两数相除.cpp in Sources */,
+				25A2D89423A9220A00C0E760 /* 326-3的幂.cpp in Sources */,
 				2544746D23A3D574004D6722 /* 264丑数.cpp in Sources */,
+				25F3EA3923A7B8D4005F6A5E /* 213打家劫舍2.cpp in Sources */,
+				25826AAC23A67A850028982F /* 50pow(x,n).cpp in Sources */,
+				25F3EA3B23A7C760005F6A5E /* 198打家劫舍1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
