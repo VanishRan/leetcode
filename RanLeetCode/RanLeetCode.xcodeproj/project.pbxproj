@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492F30FF2434B39600ABFB4F /* 1111有效括号的嵌套深度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 492F30FE2434B39600ABFB4F /* 1111有效括号的嵌套深度.cpp */; };
+		49447696242AF67300432797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49447695242AF67300432797 /* main.m */; };
+		4944769D242AF70900432797 /* 892三维形体的表面积.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4944769C242AF70900432797 /* 892三维形体的表面积.cpp */; };
+		4944769F242B2EEF00432797 /* 121买卖股票的最佳时机.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4944769E242B2EEF00432797 /* 121买卖股票的最佳时机.cpp */; };
+		494476A1242B477600432797 /* 169多数元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494476A0242B477600432797 /* 169多数元素.cpp */; };
+		494476A3242B4FD800432797 /* 206反转链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494476A2242B4FD800432797 /* 206反转链表.cpp */; };
+		494476A5242B735600432797 /* 225用队列实现栈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494476A4242B735600432797 /* 225用队列实现栈.cpp */; };
+		494476A7242B82B000432797 /* 300最长上升子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494476A6242B82B000432797 /* 300最长上升子序列.cpp */; };
+		4968132D242D97320060A219 /* 876链表的中间结点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4968132C242D97320060A219 /* 876链表的中间结点.cpp */; };
+		4968132F242D9A620060A219 /* 994腐烂的橘子.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4968132E242D9A620060A219 /* 994腐烂的橘子.cpp */; };
+		49681332242DA5860060A219 /* 1013将数组分成和相等的三个部分.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49681331242DA5860060A219 /* 1013将数组分成和相等的三个部分.cpp */; };
+		49681334242DB9000060A219 /* 1071字符串的最大公因子.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49681333242DB9000060A219 /* 1071字符串的最大公因子.cpp */; };
+		4971F000243D58BE00869D4B /* 94二叉树的中序遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4971EFFF243D58BE00869D4B /* 94二叉树的中序遍历.cpp */; };
+		4971F002243D5DBA00869D4B /* 96不同的二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4971F001243D5DBA00869D4B /* 96不同的二叉搜索树.cpp */; };
+		4971F004243DF2A800869D4B /* 98验证二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4971F003243DF2A800869D4B /* 98验证二叉搜索树.cpp */; };
+		4978F655242CD1DF0084D574 /* 836矩形重叠.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4978F654242CD1DF0084D574 /* 836矩形重叠.cpp */; };
+		4990D9E8243F1AB900EE91CF /* 101对称二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4990D9E7243F1AB900EE91CF /* 101对称二叉树.cpp */; };
+		4990D9EA243F222900EE91CF /* 102二叉树的层序遍历.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4990D9E9243F222900EE91CF /* 102二叉树的层序遍历.cpp */; };
+		4990D9EC243F404500EE91CF /* 104二叉树的最大深度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4990D9EB243F404500EE91CF /* 104二叉树的最大深度.cpp */; };
+		49A487382432C48100659438 /* 面试题10-01合并排序的数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A487372432C48100659438 /* 面试题10-01合并排序的数组.cpp */; };
+		49A4873A24336C9500659438 /* 面试题17-16按摩师.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A4873924336C9500659438 /* 面试题17-16按摩师.cpp */; };
+		49A4873C2433754E00659438 /* 面试题40最小的k个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A4873B2433754E00659438 /* 面试题40最小的k个数.cpp */; };
+		49AAA3EC242C2D5400874748 /* 999车的可用捕获量.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49AAA3EB242C2D5400874748 /* 999车的可用捕获量.cpp */; };
+		49AAA3F1242C986300874748 /* 409最长回文串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49AAA3F0242C986300874748 /* 409最长回文串.cpp */; };
+		49AAA3F3242CA77B00874748 /* 543二叉树的直径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49AAA3F2242CA77B00874748 /* 543二叉树的直径.cpp */; };
+		49C948262431AB0C0087E843 /* 面试题62圆圈中最后剩下的数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C948252431AB0C0087E843 /* 面试题62圆圈中最后剩下的数字.cpp */; };
+		49D40249242D786D00872376 /* 914卡牌分组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D40248242D786D00872376 /* 914卡牌分组.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49447690242AF67300432797 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		492F30FE2434B39600ABFB4F /* 1111有效括号的嵌套深度.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1111有效括号的嵌套深度.cpp"; sourceTree = "<group>"; };
+		49447692242AF67300432797 /* RanLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RanLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		49447695242AF67300432797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4944769C242AF70900432797 /* 892三维形体的表面积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "892三维形体的表面积.cpp"; sourceTree = "<group>"; };
+		4944769E242B2EEF00432797 /* 121买卖股票的最佳时机.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "121买卖股票的最佳时机.cpp"; sourceTree = "<group>"; };
+		494476A0242B477600432797 /* 169多数元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "169多数元素.cpp"; sourceTree = "<group>"; };
+		494476A2242B4FD800432797 /* 206反转链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "206反转链表.cpp"; sourceTree = "<group>"; };
+		494476A4242B735600432797 /* 225用队列实现栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "225用队列实现栈.cpp"; sourceTree = "<group>"; };
+		494476A6242B82B000432797 /* 300最长上升子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "300最长上升子序列.cpp"; sourceTree = "<group>"; };
+		49681327242D93960060A219 /* 其他笔记.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "其他笔记.txt"; sourceTree = "<group>"; };
+		49681328242D93960060A219 /* 基本语法.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "基本语法.txt"; sourceTree = "<group>"; };
+		49681329242D943C0060A219 /* 通用套路.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "通用套路.md"; sourceTree = "<group>"; };
+		4968132C242D97320060A219 /* 876链表的中间结点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "876链表的中间结点.cpp"; sourceTree = "<group>"; };
+		4968132E242D9A620060A219 /* 994腐烂的橘子.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "994腐烂的橘子.cpp"; sourceTree = "<group>"; };
+		49681330242D9A920060A219 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		49681331242DA5860060A219 /* 1013将数组分成和相等的三个部分.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1013将数组分成和相等的三个部分.cpp"; sourceTree = "<group>"; };
+		49681333242DB9000060A219 /* 1071字符串的最大公因子.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1071字符串的最大公因子.cpp"; sourceTree = "<group>"; };
+		4971EFFF243D58BE00869D4B /* 94二叉树的中序遍历.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "94二叉树的中序遍历.cpp"; sourceTree = "<group>"; };
+		4971F001243D5DBA00869D4B /* 96不同的二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "96不同的二叉搜索树.cpp"; sourceTree = "<group>"; };
+		4971F003243DF2A800869D4B /* 98验证二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "98验证二叉搜索树.cpp"; sourceTree = "<group>"; };
+		4978F654242CD1DF0084D574 /* 836矩形重叠.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "836矩形重叠.cpp"; sourceTree = "<group>"; };
+		4990D9E7243F1AB900EE91CF /* 101对称二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "101对称二叉树.cpp"; sourceTree = "<group>"; };
+		4990D9E9243F222900EE91CF /* 102二叉树的层序遍历.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "102二叉树的层序遍历.cpp"; sourceTree = "<group>"; };
+		4990D9EB243F404500EE91CF /* 104二叉树的最大深度.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "104二叉树的最大深度.cpp"; sourceTree = "<group>"; };
+		49A487372432C48100659438 /* 面试题10-01合并排序的数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题10-01合并排序的数组.cpp"; sourceTree = "<group>"; };
+		49A4873924336C9500659438 /* 面试题17-16按摩师.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题17-16按摩师.cpp"; sourceTree = "<group>"; };
+		49A4873B2433754E00659438 /* 面试题40最小的k个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题40最小的k个数.cpp"; sourceTree = "<group>"; };
+		49AAA3EB242C2D5400874748 /* 999车的可用捕获量.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "999车的可用捕获量.cpp"; sourceTree = "<group>"; };
+		49AAA3F0242C986300874748 /* 409最长回文串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "409最长回文串.cpp"; sourceTree = "<group>"; };
+		49AAA3F2242CA77B00874748 /* 543二叉树的直径.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "543二叉树的直径.cpp"; sourceTree = "<group>"; };
+		49C948252431AB0C0087E843 /* 面试题62圆圈中最后剩下的数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题62圆圈中最后剩下的数字.cpp"; sourceTree = "<group>"; };
+		49D40248242D786D00872376 /* 914卡牌分组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "914卡牌分组.cpp"; sourceTree = "<group>"; };
+		49D4024B242D90D700872376 /* 题目思路.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "题目思路.md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4944768F242AF67300432797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49447689242AF67300432797 = {
+			isa = PBXGroup;
+			children = (
+				49447694242AF67300432797 /* RanLeetCode */,
+				49447693242AF67300432797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49447693242AF67300432797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49447692242AF67300432797 /* RanLeetCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49447694242AF67300432797 /* RanLeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				4968132A242D94490060A219 /* 笔记 */,
+				4971EFFE243D589D00869D4B /* 树 */,
+				4968132B242D94BC0060A219 /* 题目 */,
+			);
+			path = RanLeetCode;
+			sourceTree = "<group>";
+		};
+		4968132A242D94490060A219 /* 笔记 */ = {
+			isa = PBXGroup;
+			children = (
+				49681330242D9A920060A219 /* common.h */,
+				49447695242AF67300432797 /* main.m */,
+				49D4024B242D90D700872376 /* 题目思路.md */,
+				49681329242D943C0060A219 /* 通用套路.md */,
+				49681328242D93960060A219 /* 基本语法.txt */,
+				49681327242D93960060A219 /* 其他笔记.txt */,
+			);
+			path = "笔记";
+			sourceTree = "<group>";
+		};
+		4968132B242D94BC0060A219 /* 题目 */ = {
+			isa = PBXGroup;
+			children = (
+				4944769C242AF70900432797 /* 892三维形体的表面积.cpp */,
+				4944769E242B2EEF00432797 /* 121买卖股票的最佳时机.cpp */,
+				494476A0242B477600432797 /* 169多数元素.cpp */,
+				494476A2242B4FD800432797 /* 206反转链表.cpp */,
+				494476A4242B735600432797 /* 225用队列实现栈.cpp */,
+				494476A6242B82B000432797 /* 300最长上升子序列.cpp */,
+				49AAA3EB242C2D5400874748 /* 999车的可用捕获量.cpp */,
+				49AAA3F0242C986300874748 /* 409最长回文串.cpp */,
+				49AAA3F2242CA77B00874748 /* 543二叉树的直径.cpp */,
+				4978F654242CD1DF0084D574 /* 836矩形重叠.cpp */,
+				49D40248242D786D00872376 /* 914卡牌分组.cpp */,
+				4968132C242D97320060A219 /* 876链表的中间结点.cpp */,
+				4968132E242D9A620060A219 /* 994腐烂的橘子.cpp */,
+				49681331242DA5860060A219 /* 1013将数组分成和相等的三个部分.cpp */,
+				49681333242DB9000060A219 /* 1071字符串的最大公因子.cpp */,
+				492F30FE2434B39600ABFB4F /* 1111有效括号的嵌套深度.cpp */,
+				49C948242431AAF20087E843 /* 面试题 */,
+			);
+			path = "题目";
+			sourceTree = "<group>";
+		};
+		4971EFFE243D589D00869D4B /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				4971EFFF243D58BE00869D4B /* 94二叉树的中序遍历.cpp */,
+				4971F001243D5DBA00869D4B /* 96不同的二叉搜索树.cpp */,
+				4971F003243DF2A800869D4B /* 98验证二叉搜索树.cpp */,
+				4990D9E7243F1AB900EE91CF /* 101对称二叉树.cpp */,
+				4990D9E9243F222900EE91CF /* 102二叉树的层序遍历.cpp */,
+				4990D9EB243F404500EE91CF /* 104二叉树的最大深度.cpp */,
+			);
+			path = "树";
+			sourceTree = "<group>";
+		};
+		49C948242431AAF20087E843 /* 面试题 */ = {
+			isa = PBXGroup;
+			children = (
+				49C948252431AB0C0087E843 /* 面试题62圆圈中最后剩下的数字.cpp */,
+				49A487372432C48100659438 /* 面试题10-01合并排序的数组.cpp */,
+				49A4873924336C9500659438 /* 面试题17-16按摩师.cpp */,
+				49A4873B2433754E00659438 /* 面试题40最小的k个数.cpp */,
+			);
+			path = "面试题";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49447691242AF67300432797 /* RanLeetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49447699242AF67300432797 /* Build configuration list for PBXNativeTarget "RanLeetCode" */;
+			buildPhases = (
+				4944768E242AF67300432797 /* Sources */,
+				4944768F242AF67300432797 /* Frameworks */,
+				49447690242AF67300432797 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanLeetCode;
+			productName = RanLeetCode;
+			productReference = 49447692242AF67300432797 /* RanLeetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4944768A242AF67300432797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = mahuanran;
+				TargetAttributes = {
+					49447691242AF67300432797 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4944768D242AF67300432797 /* Build configuration list for PBXProject "RanLeetCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49447689242AF67300432797;
+			productRefGroup = 49447693242AF67300432797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49447691242AF67300432797 /* RanLeetCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4944768E242AF67300432797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944769F242B2EEF00432797 /* 121买卖股票的最佳时机.cpp in Sources */,
+				49681334242DB9000060A219 /* 1071字符串的最大公因子.cpp in Sources */,
+				49D40249242D786D00872376 /* 914卡牌分组.cpp in Sources */,
+				4978F655242CD1DF0084D574 /* 836矩形重叠.cpp in Sources */,
+				4971F002243D5DBA00869D4B /* 96不同的二叉搜索树.cpp in Sources */,
+				49681332242DA5860060A219 /* 1013将数组分成和相等的三个部分.cpp in Sources */,
+				494476A7242B82B000432797 /* 300最长上升子序列.cpp in Sources */,
+				4990D9EA243F222900EE91CF /* 102二叉树的层序遍历.cpp in Sources */,
+				494476A3242B4FD800432797 /* 206反转链表.cpp in Sources */,
+				49C948262431AB0C0087E843 /* 面试题62圆圈中最后剩下的数字.cpp in Sources */,
+				4968132D242D97320060A219 /* 876链表的中间结点.cpp in Sources */,
+				49A487382432C48100659438 /* 面试题10-01合并排序的数组.cpp in Sources */,
+				494476A1242B477600432797 /* 169多数元素.cpp in Sources */,
+				4971F000243D58BE00869D4B /* 94二叉树的中序遍历.cpp in Sources */,
+				49A4873A24336C9500659438 /* 面试题17-16按摩师.cpp in Sources */,
+				4968132F242D9A620060A219 /* 994腐烂的橘子.cpp in Sources */,
+				49AAA3F1242C986300874748 /* 409最长回文串.cpp in Sources */,
+				4990D9EC243F404500EE91CF /* 104二叉树的最大深度.cpp in Sources */,
+				4971F004243DF2A800869D4B /* 98验证二叉搜索树.cpp in Sources */,
+				4944769D242AF70900432797 /* 892三维形体的表面积.cpp in Sources */,
+				49AAA3F3242CA77B00874748 /* 543二叉树的直径.cpp in Sources */,
+				49447696242AF67300432797 /* main.m in Sources */,
+				49AAA3EC242C2D5400874748 /* 999车的可用捕获量.cpp in Sources */,
+				492F30FF2434B39600ABFB4F /* 1111有效括号的嵌套深度.cpp in Sources */,
+				494476A5242B735600432797 /* 225用队列实现栈.cpp in Sources */,
+				49A4873C2433754E00659438 /* 面试题40最小的k个数.cpp in Sources */,
+				4990D9E8243F1AB900EE91CF /* 101对称二叉树.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49447697242AF67300432797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49447698242AF67300432797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4944769A242AF67300432797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N2U4WJ6WA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4944769B242AF67300432797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N2U4WJ6WA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4944768D242AF67300432797 /* Build configuration list for PBXProject "RanLeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49447697242AF67300432797 /* Debug */,
+				49447698242AF67300432797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49447699242AF67300432797 /* Build configuration list for PBXNativeTarget "RanLeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4944769A242AF67300432797 /* Debug */,
+				4944769B242AF67300432797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4944768A242AF67300432797 /* Project object */;
+}
