@@ -132,5 +132,149 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91C9889E-BCD2-4187-96E9-CE58230E61AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x6811;/105&#x4ece;&#x524d;&#x5e8f;&#x4e0e;&#x4e2d;&#x5e8f;&#x904d;&#x5386;&#x5e8f;&#x5217;&#x6784;&#x9020;&#x4e8c;&#x53c9;&#x6811;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "traverse(preorder, inorder, preLeft, preRight, inLeft, inRight)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E8C8641-B4BD-4B67-B2AB-7C42EE792ADB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x6811;/538&#x628a;&#x4e8c;&#x53c9;&#x641c;&#x7d22;&#x6811;&#x8f6c;&#x6362;&#x4e3a;&#x7d2f;&#x52a0;&#x6811;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "traverse(t)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78E92817-720D-4F1C-A0B8-5D39139283D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x6811;/124&#x4e8c;&#x53c9;&#x6811;&#x4e2d;&#x7684;&#x6700;&#x5927;&#x8def;&#x5f84;&#x548c;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "traverse(node)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9380C05D-79CF-4AAF-A653-AFAA7C9B94C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x9898;&#x76ee;/3&#x65e0;&#x91cd;&#x590d;&#x5b57;&#x7b26;&#x7684;&#x6700;&#x957f;&#x5b50;&#x4e32;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "lengthOfLongestSubstring(s)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D1C2167-1CF3-4C3A-A303-469DC41C3ED5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x94fe;&#x8868;/234&#x56de;&#x6587;&#x94fe;&#x8868;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "isPalindrome(head)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24F28B47-F1A7-47DB-8404-15613FAFBEE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x94fe;&#x8868;/234&#x56de;&#x6587;&#x94fe;&#x8868;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "isPalindrome(head)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4C4E301-B3DF-40D8-AB1A-A479ADC1B341"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x94fe;&#x8868;/234&#x56de;&#x6587;&#x94fe;&#x8868;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "isPalindrome(head)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43615629-517D-4AEE-89A8-C572146C0A30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x52a8;&#x6001;&#x89c4;&#x5212;/&#x7ecf;&#x5178;/1143&#x6700;&#x957f;&#x516c;&#x5171;&#x5b50;&#x5e8f;&#x5217;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "longestCommonSubsequence(text1, text2)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D93858B8-450B-4699-9E64-46925CB5B4EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RanLeetCode/&#x52a8;&#x6001;&#x89c4;&#x5212;/&#x7ecf;&#x5178;/1143&#x6700;&#x957f;&#x516c;&#x5171;&#x5b50;&#x5e8f;&#x5217;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "longestCommonSubsequence(text1, text2)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

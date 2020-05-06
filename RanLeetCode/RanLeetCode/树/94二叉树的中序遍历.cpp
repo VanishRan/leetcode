@@ -18,12 +18,6 @@
  输出: [1,3,2]
 */
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
  
 class Solution {
 public:

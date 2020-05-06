@@ -16,12 +16,7 @@
  所有左子树和右子树自身必须也是二叉搜索树。
 */
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+
  
 //确定每个节点的取值范围就很好做 有规律
 class Solution {
