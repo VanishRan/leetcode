@@ -27,10 +27,10 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    s.longestCommonSubsequence("ace", "abcde");
-}
+//int main() {
+//    Solution s;
+//    s.longestCommonSubsequence("ace", "abcde");
+//}
 /*
  给定两个字符串 text1 和 text2，返回这两个字符串的最长公共子序列的长度。
 

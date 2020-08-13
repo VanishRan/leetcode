@@ -21,3 +21,12 @@ for (iter = m.begin();iter != m.end(); iter++){
 for (auto p : count) {
    int v = p.second;
 }
+
+
+3. string
+
+string转int
+stoi(str)
+
+int转string
+to_string(num);
