@@ -7,11 +7,38 @@
 //
 
 #include "common.h"
+#include <sstream> //⚠️
 
 class Solution {
 public:
     string simplifyPath(string path) {
-        return "";
+        stringstream is(path);
+        vector<string> v;
+        string tmp = "";
+        while (getline(is, tmp, '/')) {
+            if (tmp == "" || tmp == ".") {
+                continue;
+            }
+            
+            if (tmp == "..") {
+                if (!v.empty()) {
+                    v.pop_back();
+                }
+            } else {
+                v.push_back(tmp);
+            }
+        }
+        
+        string res = "";
+        for (int i=0; i<v.size(); i++) {
+            res += "/" + v[i];
+        }
+        
+        if (res.empty()) {
+            return "/";
+        }
+        
+        return res;
     }
 };
 

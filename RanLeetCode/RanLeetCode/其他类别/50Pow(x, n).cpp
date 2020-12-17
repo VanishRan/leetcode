@@ -7,25 +7,27 @@
 //
 
 #include "common.h"
+//again
 
+/*
+   递归法
+   x^77 <- x^38 <- x^19 <- x^9 <- x^4 <- x^2 <- x^1 <- x^0
+ */
 class Solution {
 public:
-//    double myPow(double x, int n) {
-//        if (n == 0) {
-//            return 1.0;
-//        }
-//        
-//        double res = 1.0;
-//        double tmpX = x;
-//        while (n > 0) {
-//            if (n % 2 == 1) {
-//                res *= tmpX;
-//            }
-//            tmpX *= tmpX;
-//            n / 2;
-//        }
-//        res *= tmpX;
-//    }
+    double myPow(double x, int n) {
+        long t = n;
+        return t >= 0 ? func(x, t) : 1 / func(x, -t);
+    }
+    
+    double func(double x, long n) {
+        if (n == 0) {
+            return 1.0;
+        }
+        
+        double y = func(x, n/2);
+        return n % 2 == 0 ? y * y : y * y * x;
+    }
 };
 
 

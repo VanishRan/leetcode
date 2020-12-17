@@ -12,9 +12,7 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<bool> used();
-        
-        for (int0)
+        return false;
     }
 };
 

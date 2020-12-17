@@ -7,13 +7,59 @@
 //
 
 #include "common.h"
+#include "math.h"
 
+//这道题还要再做一遍  4/333为例
 class Solution {
 public:
     string fractionToDecimal(int numerator, int denominator) {
-        return "";
+        if (numerator == 0)
+            return "0";
+        if (denominator == 0)
+            return "";
+        
+        long nume = numerator;
+        long deno = denominator;
+        
+        string res;
+        if ((nume>0) ^ (deno>0)) {
+            res = "-";
+        }
+        
+        nume = fabs(nume);
+        deno = fabs(deno);
+        res += to_string(nume / deno);
+        
+        nume = nume % deno;
+        if (nume == 0) {
+            return res;
+        }
+        
+        res += '.';
+        int idx = res.length();
+        
+        map<long,long> mp; //记录余数的位置
+        while (nume) {
+            if (mp.count(nume)) {
+                res.insert(mp[nume], "(");
+                res += ')';
+                return res;
+            }
+            
+            mp[nume] = idx++;
+            nume *= 10;
+            res += to_string(nume / deno);
+            nume = nume % deno;
+        }
+        
+        return res;
     }
 };
+
+//int main() {
+//    Solution s;
+//    s.fractionToDecimal(4, 333);
+//}
 
 /*
  给定两个整数，分别表示分数的分子 numerator 和分母 denominator，以字符串形式返回小数。

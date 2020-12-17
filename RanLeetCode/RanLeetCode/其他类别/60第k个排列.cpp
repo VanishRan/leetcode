@@ -8,39 +8,79 @@
 
 #include "common.h"
 
+/*
+   输入: n = 4, k = 9
+   输出: "2314"
+  
+   k = k-1 = 8
+ 
+   [0,1,2,6]
+ 
+   [1,2,3,4]  k / 3! = 1 ... 2 -> 2   k = 2
+   [1,3,4]    k / 2! = 1 ... 0 -> 3   k = 0
+   [1,4]      k = 0, [1,4] 出列
+ 
+ 输入: n = 3, k = 3
+ 输出: "213"
+ 系数 [0,1,2]
+ [1,2,3]  3/2 = 1...1  res=2    k=1
+ [1,3]    1/1 = 1...0  res=20   k=0
+ [3]                   res=203
+ 
+ */
+//有个回溯剪枝可学一波
 class Solution {
 public:
     int idx;
     string res;
 public:
     string getPermutation(int n, int k) {
-        idx = 0;
-        backtrack(n, k, "", vector<bool>(n, false));
+        //⚠️关键
+        k--;
+        
+        //1.系数 1！ 2！ 3！ 4！
+        vector<int> v(n, 0);
+        v[0] = 1;
+        for (int i=1; i<n; i++) {
+            v[i] = v[i-1] * i;
+        }
+        
+        //2.数组
+        vector<int> num(n,0);
+        for (int i=0; i<n; i++) {
+            num[i] = i + 1;
+        }
+        
+        //3.求余数
+        string res;
+        int j = n-1;
+        while (k > 0) {
+            int m = k / v[j];
+            k = k % v[j];
+            
+            res += (num[m] + '0');
+            
+            //移除
+            num = remove(num, m);
+            j--;
+        }
+        
+        //4.把剩余的数字添加到后面
+        int t = num.size();
+        for (int i=0; i<t; i++) {
+            res += (num[i] + '0');
+        }
+        
         return res;
     }
     
-    bool backtrack(int n, int k, string path, vector<bool> used) {
-        if (path.length() == n) {
-            if (++idx == k) {
-                res = path;
-                return true;
-            }
-            return false;
+    vector<int> remove(vector<int> t, int j) {
+        vector<int> res;
+        for (int i=0; i<t.size(); i++) {
+            if (i != j)
+                res.push_back(t[i]);
         }
-        
-        for (int i=1; i<=n; i++) {
-            if (used[i-1])
-                continue;
-            
-            char ch = '0' + i;
-            string tmp = path + ch;
-            used[i-1] = true;
-            if (backtrack(n, k, tmp, used))
-                return true;
-            used[i-1] = false;
-        }
-        
-        return false;
+        return res;
     }
 };
 

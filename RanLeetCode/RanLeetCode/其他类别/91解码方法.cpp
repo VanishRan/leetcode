@@ -8,40 +8,38 @@
 
 #include "common.h"
 
+/*
+  三种情况：
+    1.s[i] = 0 && s[i-1] = 1或2  dp[i] = dp[i-2]
+    2.s[i-1] = 1                 dp[i] = dp[i-1] + dp[i-2]
+    3.s[i-1] = 2  && 1<=s[i]<=6  dp[i] = dp[i-1] + dp[i-2]
+    4.其他情况                     dp[i] = dp[i-1]
+ */
 class Solution {
 public:
-    int res;
-public:
     int numDecodings(string s) {
-        map<int, char> mp;
-        mp[1] = 'A';  mp[2] = 'B';  mp[3] = 'C';  mp[4] = 'D';
-        mp[5] = 'E';  mp[6] = 'F';  mp[7] = 'G';  mp[8] = 'H';
-        mp[9] = 'I';  mp[10] = 'J'; mp[11] = 'K'; mp[12] = 'L';
-        mp[13] = 'M'; mp[14] = 'N'; mp[15] = 'O'; mp[16] = 'P';
-        mp[17] = 'Q'; mp[18] = 'R'; mp[19] = 'S'; mp[20] = 'T';
-        mp[21] = 'U'; mp[22] = 'V'; mp[23] = 'W'; mp[24] = 'X';
-        mp[25] = 'Y'; mp[26] = 'Z';
-        
-        res = 0;
-        backTrack(s, 0, mp);
-        return res;;
-    }
-    
-    void backTrack(string s, int begin, map<int, char> mp) {
-        if (begin >= s.length()) {
-            res++;
-            return;
+        if (s.length() == 0 || s[0] == '0') {
+            return 0;
         }
         
-        int i = 2;
-        while (i) {
-            string t = s.substr(begin,i);
-            int n = stoi(t);
-            if (mp.count(n)) {
-                backTrack(s, begin+i, mp);
+        int len = s.length();
+        vector<int> dp(len+1, 0); //搞个辅助位 防止数组越界
+        dp[0] = 1; dp[1] = 1;
+        for (int i=1; i<len; i++) {
+            if (s[i] == '0') {
+                if (s[i-1] == '1' || s[i-1] == '2') {
+                    dp[i+1] = dp[i-1];
+                } else {
+                    return 0;
+                }
+            } else if (s[i-1] == '1' || (s[i-1] == '2' && s[i] >= '0' && s[i] <= '6')) {
+                dp[i+1] = dp[i] + dp[i-1];
+            } else {
+                dp[i+1] = dp[i];
             }
-            i--;
         }
+        
+        return dp[len];
     }
 };
 
