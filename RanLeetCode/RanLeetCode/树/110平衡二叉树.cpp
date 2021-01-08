@@ -9,6 +9,27 @@
 #include "common.h"
 #include "math.h"
 //again
+
+class Solution2 {
+public:
+    bool isBalanced(TreeNode* root) {
+        if (root == NULL)
+            return true;
+        
+        //左边是不是 + 右边是不是 + 本节点是不是
+        return isBalanced(root->left) && isBalanced(root->right) && (fabs(getDepth(root->left) -  getDepth(root->right)) <= 1);
+    }
+
+    int getDepth(TreeNode* t) {
+        if (t == NULL)
+            return 0;
+
+        int left = getDepth(t->left);
+        int right = getDepth(t->right);
+        return max(left, right) + 1;
+    }
+};
+
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
