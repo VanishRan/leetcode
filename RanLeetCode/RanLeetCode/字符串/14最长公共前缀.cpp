@@ -7,43 +7,26 @@
 //
 
 #include "common.h"
-//比较简单 可以写优雅点
+//排序 然后对比第一个 和 最后一个
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
         if (strs.size() == 0)
             return "";
-        
-        if (strs.size() == 1)
-            return strs[0];
-            
-        string res;
+
+        sort(strs.begin(), strs.end());
+        string t1 = strs[0];
+        string t2 = strs[strs.size()-1];
+        string res = "";
         
         int i = 0;
-        while (1) {
-            char ch;
-            if (i >= strs[0].length()) {
-                break;
-            }
-            
-            ch = strs[0][i];
-            
-            bool isDifferent = false;
-            for (int j=1; j<strs.size(); j++) {
-                if (i >= strs[j].length() || strs[j][i] != ch) {
-                    isDifferent = true;
-                    break;
-                }
-            }
-            
-            if (isDifferent) {
-                break;
-            }
-            
-            res += ch;
+        int j = 0;
+        while (i < t1.length() && j < t2.length() && t1[i] == t2[j]) {
+            res += t1[i];
             i++;
+            j++;
         }
-        
+
         return res;
     }
 };

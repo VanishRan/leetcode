@@ -6,10 +6,12 @@
 //  Copyright © 2020 mahuanran. All rights reserved.
 //
 
+#include "common.h"
+
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *head = new ListNode();
+        ListNode *head = new ListNode(0);
         ListNode *cur = head;
 
         int carry = 0;
@@ -27,7 +29,7 @@ public:
             carry = sum / 10;
             sum = sum % 10;
 
-            ListNode *node = new ListNode();
+            ListNode *node = new ListNode(0);
             node->val = sum;
             cur->next = node;
             cur = node;

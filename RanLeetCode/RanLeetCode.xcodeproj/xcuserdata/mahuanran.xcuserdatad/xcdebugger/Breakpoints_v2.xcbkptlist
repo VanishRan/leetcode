@@ -439,22 +439,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F032C41B-2FC5-48F8-865F-660F1E388E9F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RanLeetCode/&#x5176;&#x4ed6;&#x7c7b;&#x522b;/14&#x6700;&#x957f;&#x516c;&#x5171;&#x524d;&#x7f00;.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "longestCommonPrefix(strs)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D36316BC-3826-4023-B274-AF9905131E1B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
