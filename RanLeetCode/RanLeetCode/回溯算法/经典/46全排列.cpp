@@ -12,6 +12,7 @@
 //O(N^(N+1))
 //https://mp.weixin.qq.com/s/qT6WgR6Qwn7ayZkI3AineA
 //排列 组合 子集
+//排列有个visit 组合和子集有个begin
 class Solution {
 public:
     vector<vector<int>> res;

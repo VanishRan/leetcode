@@ -9,39 +9,30 @@
 #include "common.h"
 
 //1->4->3->2->5->2
+//搞两个链表就可以
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        if (head == NULL)
-            return head;
-        
-        ListNode *pre = new ListNode(0);
-        pre->next = head;
-        ListNode *t1 = pre;
-        
-        //先找到>=x的节点的前一个点
-        while(t1->next && t1->next->val < x) {
-            t1 = t1->next;
-        }
-
-        ListNode *t2 = t1->next;
-        ListNode *t3 = t2 ? t2->next : NULL;
-        while (t3) {
-            if (t3->val < x) {
-                t2->next = t3->next;
-                t3->next = t1->next;
-                t1->next = t3;
-                t1 = t3;
-                t3 = t2->next;
+        ListNode* small = new ListNode(0);
+        ListNode* smallHead = small;
+        ListNode* large = new ListNode(0);
+        ListNode* largeHead = large;
+        while (head != nullptr) {
+            if (head->val < x) {
+                small->next = head;
+                small = small->next;
             } else {
-                t2 = t2->next;
-                t3 = t3->next;
+                large->next = head;
+                large = large->next;
             }
+            head = head->next;
         }
-        
-        return pre->next;
+        large->next = nullptr;
+        small->next = largeHead->next;
+        return smallHead->next;
     }
 };
+
 
 /*
  给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。

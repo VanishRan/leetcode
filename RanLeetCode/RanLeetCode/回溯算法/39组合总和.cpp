@@ -30,7 +30,7 @@ public:
         
         for (int i=begin; i<candidates.size(); i++) {
             path.push_back(candidates[i]);
-            backTrack(candidates, target, path, sum+candidates[i], i);
+            backTrack(candidates, target, path, sum+candidates[i], i); //⚠️i
             path.pop_back();
         }
     }

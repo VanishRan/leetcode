@@ -15,7 +15,7 @@ public:
         int m = 32;
         while (m--) {
             int tmp = n & 1;
-            res = (res << 1) + tmp;
+            res = (res << 1) + tmp;//????
             n = n >> 1;
         }
         

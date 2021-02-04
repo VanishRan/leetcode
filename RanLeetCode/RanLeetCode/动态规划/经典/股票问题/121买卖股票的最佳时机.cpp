@@ -85,3 +85,17 @@ public:
         return dp[len-1][0];
     }
 };
+
+
+class Solution2 {
+public:
+    int maxProfit(vector<int>& prices) {
+        int minPrice = prices[0];
+        int res = 0;
+        for (int i=1;i<prices.size();i++) {
+            res = max(res, prices[i]-minPrice);
+            minPrice = min(minPrice, prices[i]);
+        }
+        return res;
+    }
+};

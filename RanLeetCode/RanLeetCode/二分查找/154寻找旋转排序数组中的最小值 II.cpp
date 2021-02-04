@@ -20,31 +20,19 @@ public:
         
         int left = 0;
         int right = len-1;
-        int mid = 0;
         while (left <= right) {
-            while (left+1<=right && nums[left] == nums[left+1]) {
-                left++;
-            }
-            
-            while (right-1>=left && nums[right] == nums[right-1]) {
-                right--;
-            }
-            
-            mid = (left + right) / 2;
-            
-            if (mid > 0 && nums[mid] < nums[mid-1]) {
-                break;
-            }
-            
-            if (nums[mid] >= nums[0]) {
+            int mid = (left + right) / 2;
+            if (nums[mid] < nums[right]) {
+                right = mid;
+            } else if (nums[mid] > nums[right]) {
                 left = mid + 1;
             } else {
-                right = mid - 1;
+                right = right - 1;
             }
             
         }
         
-        return nums[mid];
+        return nums[left];
     }
 };
 

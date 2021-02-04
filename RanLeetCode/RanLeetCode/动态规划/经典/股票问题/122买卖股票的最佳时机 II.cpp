@@ -102,3 +102,20 @@ public:
         return pre_0;
     }
 };
+
+
+class Solution2 {
+public:
+    int maxProfit(vector<int>& prices) {
+        int len = prices.size();
+        int res = 0;
+        for (int i=0;i<prices.size();i++) {
+            int j = i;
+            while (j+1 < len && prices[j+1] > prices[j])
+                j++;
+            res += prices[j] - prices[i];
+            i = j;
+        }
+        return res;
+    }
+};
