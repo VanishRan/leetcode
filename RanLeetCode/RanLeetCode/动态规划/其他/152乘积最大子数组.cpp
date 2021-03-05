@@ -10,7 +10,7 @@
 /*
       2  3  -2  4
 imax  2  6  -2  4
-imin  2  3  -6  -24
+imin  2  3  -12 -48
 max   2  6  6   6
 */
 class Solution {

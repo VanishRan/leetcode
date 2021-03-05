@@ -183,6 +183,8 @@
 		49C8979224B863350006ACE3 /* 394字符串解码.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C8979124B863350006ACE3 /* 394字符串解码.cpp */; };
 		49C8979424B86BF20006ACE3 /* 739每日温度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C8979324B86BF20006ACE3 /* 739每日温度.cpp */; };
 		49CB900824CB045300F64EF9 /* 36有效的数独.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CB900724CB045300F64EF9 /* 36有效的数独.cpp */; };
+		49CCD0F725E48AFF001B4E7B /* 215数组中的第k个最大元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CCD0F625E48AFF001B4E7B /* 215数组中的第k个最大元素.cpp */; };
+		49CCD0FA25E4930E001B4E7B /* 958二叉树的完全性检验.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CCD0F925E4930E001B4E7B /* 958二叉树的完全性检验.cpp */; };
 		49CF3B0A25353C8B005B073F /* 126单词接龙 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CF3B0925353C8B005B073F /* 126单词接龙 II.cpp */; };
 		49CF8E9324EFE71600FE04E9 /* 138复制带随机指针的链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CF8E9224EFE71600FE04E9 /* 138复制带随机指针的链表.cpp */; };
 		49D1957424CBF03500CCD943 /* 40组合总和 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D1957324CBF03500CCD943 /* 40组合总和 II.cpp */; };
@@ -420,6 +422,8 @@
 		49C8979124B863350006ACE3 /* 394字符串解码.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "394字符串解码.cpp"; sourceTree = "<group>"; };
 		49C8979324B86BF20006ACE3 /* 739每日温度.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "739每日温度.cpp"; sourceTree = "<group>"; };
 		49CB900724CB045300F64EF9 /* 36有效的数独.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "36有效的数独.cpp"; sourceTree = "<group>"; };
+		49CCD0F625E48AFF001B4E7B /* 215数组中的第k个最大元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "215数组中的第k个最大元素.cpp"; sourceTree = "<group>"; };
+		49CCD0F925E4930E001B4E7B /* 958二叉树的完全性检验.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "958二叉树的完全性检验.cpp"; sourceTree = "<group>"; };
 		49CF3B0925353C8B005B073F /* 126单词接龙 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "126单词接龙 II.cpp"; sourceTree = "<group>"; };
 		49CF8E9224EFE71600FE04E9 /* 138复制带随机指针的链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "138复制带随机指针的链表.cpp"; sourceTree = "<group>"; };
 		49D1957324CBF03500CCD943 /* 40组合总和 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "40组合总和 II.cpp"; sourceTree = "<group>"; };
@@ -569,6 +573,7 @@
 				496B0A2F25984B5F00666925 /* 4快速排序.cpp */,
 				496B0A352598628E00666925 /* 5归并排序.cpp */,
 				496B0A3225984B6F00666925 /* 6堆排序.cpp */,
+				49CCD0F625E48AFF001B4E7B /* 215数组中的第k个最大元素.cpp */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				49F2F4072457B0BE002D9D17 /* 543二叉树的直径.cpp */,
 				4955577A24639207004DC4BE /* 572另一个树的子树.cpp */,
 				494EE31F2458FFA3004648E0 /* 617合并二叉树.cpp */,
+				49CCD0F925E4930E001B4E7B /* 958二叉树的完全性检验.cpp */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -1025,6 +1031,7 @@
 				49709CBE24DEC187009C378F /* 165比较版本号.cpp in Sources */,
 				4917C35C245D6D0800D3EE28 /* 297二叉树的序列化与反序列化.cpp in Sources */,
 				49914E2124E8F4CA009CBDA1 /* 103二叉树的锯齿形层次遍历.cpp in Sources */,
+				49CCD0FA25E4930E001B4E7B /* 958二叉树的完全性检验.cpp in Sources */,
 				4954B0DA24FB79FF0094FDEA /* 140单词拆分 II.cpp in Sources */,
 				49509CA824EE5766003954CC /* 173二叉搜索树迭代器.cpp in Sources */,
 				49860FB924C43CFF008DC45E /* 12整数转罗马数字.cpp in Sources */,
@@ -1144,6 +1151,7 @@
 				49EC332C250CBCE000609E3C /* 32最长有效括号.cpp in Sources */,
 				4917C35E245D9C7A00D3EE28 /* 148排序链表.cpp in Sources */,
 				49F845412533291500254979 /* 97交错字符串.cpp in Sources */,
+				49CCD0F725E48AFF001B4E7B /* 215数组中的第k个最大元素.cpp in Sources */,
 				4998A45A244D8387003CCE0B /* 114二叉树展开为链表.cpp in Sources */,
 				4969DC1524DC2D9200241CCE /* 191位1的个数.cpp in Sources */,
 				49A0334724791A93005CCB85 /* 64最小路径和.cpp in Sources */,

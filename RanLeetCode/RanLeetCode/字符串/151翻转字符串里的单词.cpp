@@ -8,34 +8,35 @@
 
 #include "common.h"
 
-//整体反转 + 单词反转
-//跟旋转数组有点像
+//双指针
 class Solution {
 public:
     string reverseWords(string s) {
-        reverse(s.begin(), s.end());
-        string res;
-        
-        for (int i=0; i<s.length(); i++) {
-            //先找到第一个不为“ ”的字符
-            if (s[i] != ' ') {
-                int j = i;
-                for (; j<s.length(); j++) {
-                    if (s[j] == ' ') {
-                        break;
-                    }
-                }
-                
-                string t1 = s.substr(i, j-i);
-                reverse(t1.begin(), t1.end());
-                res += res.length() == 0 ? t1 : (" " + t1);
-                i = j;
+        string res = "";
+        int i = s.length() - 1;
+        while (i >= 0) {
+            if (s[i] == ' ') {
+                i--;
+                continue;
             }
+
+            int j = i;
+            while (j > 0 && s[j-1] != ' ')
+                j--;
+            
+            string tmp = s.substr(j, i-j+1);
+
+            res += (res.length() == 0) ? tmp : (" " + tmp);
+
+            i = j - 1;
         }
-        
+
         return res;
     }
 };
+
+
+
 
 /*
 
